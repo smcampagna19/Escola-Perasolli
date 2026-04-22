@@ -44,13 +44,13 @@ O site possui:
 ## Estrutura dos arquivos
 O projeto foi organizado em 3 arquivos principais:
 
-- `index.html`
-- `style.css`
-- `script.js`
+- index.html
+- style.css
+- script.js
 
 ### Função de cada arquivo
 
-#### `index.html`
+#### index.html
 Responsável pela estrutura do site, como:
 - cabeçalho
 - menu
@@ -58,7 +58,7 @@ Responsável pela estrutura do site, como:
 - área da Nara
 - rodapé
 
-#### `style.css`
+#### style.css
 Responsável pela aparência do site, como:
 - cores
 - espaçamentos
@@ -67,7 +67,7 @@ Responsável pela aparência do site, como:
 - layout
 - responsividade básica
 
-#### `script.js`
+#### script.js
 Responsável pela lógica da Nara, como:
 - ler a pergunta digitada
 - identificar palavras-chave
