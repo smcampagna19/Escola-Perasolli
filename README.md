@@ -3,7 +3,7 @@ Portal Escolar - Escola Perasolli
 Descrição do projeto:
 Este projeto foi desenvolvido como atividade escolar com o tema **Site Colaborativo Versionado**.
 
-A proposta foi criar um portal escolar simples da **Escola Perasoli**, usando:
+A proposta foi criar um portal escolar simples da **Escola Perasolli**, usando:
 - **HTML** para a estrutura
 - **CSS** para o visual
 - **JavaScript** para a interação com a Nara
