@@ -27,8 +27,8 @@ function responder() {
   ) {
     resposta = "Você pode entrar em contato pelo telefone (14) 4000-1234 ou pelo e-mail contato@escolaperasolli.com.";
   } else if (textoMinusculo.includes("escola") || textoMinusculo.includes("perasoli")) {
-    resposta = "A Escola Perasolli é uma escola fictícia criada para este trabalho. O portal mostra informações importantes para alunos e visitantes.";
-  } else if (
+    resposta = "A Escola Perasoli oferece cursos de Informática Básica, Administração, Desenvolvimento de Sistemas e Enfermagem. Nosso objetivo é proporcionar educação de qualidade e preparar nossos alunos para o mercado de trabalho.";
+}
     textoMinusculo.includes("oi") ||
     textoMinusculo.includes("olá") ||
     textoMinusculo.includes("ola")
