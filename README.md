@@ -1,11 +1,6 @@
-PROJETO EM GRUPO - SITE COLABORATIVO VERSIONADO
+Portal Escolar - Escola Perasoli
 
-SIMULAÇÃO DE UM PORTAL ESCOLAR
-
-
-# Portal Escolar - Escola Perasoli
-
-## Descrição do projeto
+Descrição do projeto:
 Este projeto foi desenvolvido como atividade escolar com o tema **Site Colaborativo Versionado**.
 
 A proposta foi criar um portal escolar simples da **Escola Perasoli**, usando:
