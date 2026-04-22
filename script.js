@@ -53,3 +53,4 @@ document.getElementById("pergunta").addEventListener("keypress", function(evento
     responder();
   }
 });
+
