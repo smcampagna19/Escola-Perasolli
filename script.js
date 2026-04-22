@@ -1,4 +1,3 @@
-
 function responder() {
   var input = document.getElementById("pergunta");
   var mensagens = document.getElementById("mensagens");
@@ -16,7 +15,7 @@ function responder() {
   mensagens.appendChild(msgUsuario);
 
   if (textoMinusculo.includes("curso")) {
-    resposta = "A Escola Perasolli oferece os cursos de Informática Básica, Administração, Desenvolvimento de Sistemas e Enfermagem.";
+    resposta = "A Escola Perasoli oferece os cursos de Informática Básica, Administração, Desenvolvimento de Sistemas e Enfermagem.";
   } else if (textoMinusculo.includes("horário") || textoMinusculo.includes("horario")) {
     resposta = "O horário de atendimento da escola é de segunda a sexta, das 7h às 17h.";
   } else if (
@@ -25,10 +24,14 @@ function responder() {
     textoMinusculo.includes("email") ||
     textoMinusculo.includes("e-mail")
   ) {
-    resposta = "Você pode entrar em contato pelo telefone (14) 4000-1234 ou pelo e-mail contato@escolaperasolli.com.";
-  } else if (textoMinusculo.includes("escola") || textoMinusculo.includes("perasoli")) {
-    resposta = "A Escola Perasoli oferece cursos de Informática Básica, Administração, Desenvolvimento de Sistemas e Enfermagem. Nosso objetivo é proporcionar educação de qualidade e preparar nossos alunos para o mercado de trabalho.";
-}
+    resposta = "Você pode entrar em contato pelo telefone (14) 4000-1234 ou pelo e-mail contato@escolaperasoli.com.";
+  } else if (
+    textoMinusculo.includes("escola") ||
+    textoMinusculo.includes("perasoli") ||
+    textoMinusculo.includes("perasolli")
+  ) {
+    resposta = "A Escola Perasoli oferece cursos de Informática Básica, Administração, Desenvolvimento de Sistemas e Enfermagem. Nosso objetivo é proporcionar educação de qualidade e preparar os alunos para o mercado de trabalho.";
+  } else if (
     textoMinusculo.includes("oi") ||
     textoMinusculo.includes("olá") ||
     textoMinusculo.includes("ola")
@@ -53,4 +56,3 @@ document.getElementById("pergunta").addEventListener("keypress", function(evento
     responder();
   }
 });
-
