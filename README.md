@@ -1,4 +1,4 @@
-Portal Escolar - Escola Perasoli
+Portal Escolar - Escola Perasolli
 
 Descrição do projeto:
 Este projeto foi desenvolvido como atividade escolar com o tema **Site Colaborativo Versionado**.
